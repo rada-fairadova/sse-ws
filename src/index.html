@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корпоративный чат</title>
+</head>
+<body>
+    <div id="nicknameModal" class="modal">
+        <div class="modal-content">
+            <h2>Введите ваш никнейм</h2>
+            <input type="text" id="nicknameInput" placeholder="Ваш никнейм">
+            <div id="errorMessage" class="error-message"></div>
+            <button id="joinChat">Присоединиться к чату</button>
+        </div>
+    </div>
+
+    <div id="chatContainer" class="chat-container hidden">
+        <div class="chat-header">
+            <h2>Корпоративный чат</h2>
+            <div class="user-info">
+                <span id="currentUser"></span>
+                <button id="logoutBtn">Выйти</button>
+            </div>
+        </div>
+        
+        <div class="chat-layout">
+            <div class="users-panel">
+                <h3>Участники</h3>
+                <ul id="usersList"></ul>
+            </div>
+
+            <div class="chat-area">
+                <div id="messagesContainer" class="messages-container"></div>
+                
+                <div class="message-input-container">
+                    <input type="text" id="messageInput" placeholder="Введите сообщение...">
+                    <button id="sendMessage">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bundle.js"></script>
+</body>
+</html>

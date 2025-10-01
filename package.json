@@ -1,0 +1,22 @@
+{
+  "name": "sse-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development --watch",
+    "start": "webpack serve --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rada-fairadova/sse-ws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rada-fairadova/sse-ws/issues"
+  },
+  "homepage": "https://github.com/rada-fairadova/sse-ws#readme"
+}
